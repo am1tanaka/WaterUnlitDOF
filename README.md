@@ -2,6 +2,8 @@
 
 ポストプロセスの被写界深度効果(Depth of Field)を使うと、水面のような半透明ものや影がないUnlitシェーダーが正常に描かれない場合があります。このリポジトリーではその解決策をまとめます。
 
+![ぼやけるキューブ](Recordings/image_001.jpg)
+
 ## 動作環境
 - Unity2020.3.9f1
 - PostProcessing Stack Ver3.1.1

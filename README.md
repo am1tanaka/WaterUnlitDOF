@@ -13,7 +13,9 @@
 ## プロジェクトの準備
 1. このプロジェクトを任意の場所にダウンロードして展開したり、クローンしてください
 1. Unityで開きます
-1. Package Managerから [Ebru Dogan. LowPoly Water](https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563) をインポートします。折角なので好評価もしてあげてください
+1. Package Managerから [Ebru Dogan. LowPoly Water](https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563) をインポートします。折角なので好評価も是非
+1. ProjectウィンドウからAssets > WaterUnlitDOF > Scenesフォルダーを開きます
+1. DemoSceneExが開始時の不具合があるシーン、DemoSceneExFixが解決させたシーンです
 
 
 # 使用アセット

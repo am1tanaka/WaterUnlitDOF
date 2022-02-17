@@ -28,6 +28,7 @@ public class UnderWaterCamera : MonoBehaviour
         underWaterCamera.clearFlags = CameraClearFlags.Depth;
         underWaterCamera.depth = -100;
         underWaterCamera.depthTextureMode = DepthTextureMode.Depth;
+        underWaterCamera.targetTexture = null;
         UpdateRenderTex();
     }
 
@@ -77,7 +78,7 @@ public class UnderWaterCamera : MonoBehaviour
         underWaterTex = new RenderTexture(
             renderTextureSize, renderTextureSize,
             renderTextureDepth,
-            RenderTextureFormat.Depth,
+            RenderTextureFormat.Default,
             RenderTextureReadWrite.Linear);
         underWaterTex.dimension = TextureDimension.Tex2D;
         underWaterTex.autoGenerateMips = false;

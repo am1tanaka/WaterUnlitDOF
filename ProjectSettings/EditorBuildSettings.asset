@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/WaterUnlitDOF/Scenes/DemoSceneFix02Water.unity
+    guid: 8fe4496420832044880f827e3f86c45f
+  - enabled: 1
+    path: Assets/WaterUnlitDOF/Scenes/DemoSceneEx.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/WaterUnlitDOF/Scenes/DemoSceneFix00Fade.unity
+    guid: 41e8a5f60b8bf544b9606d2ff748f3b4
+  - enabled: 1
+    path: Assets/WaterUnlitDOF/Scenes/DemoSceneFix01Unlit.unity
+    guid: 2df285ee11df98844ae9dc6623ea06ed
   m_configObjects: {}

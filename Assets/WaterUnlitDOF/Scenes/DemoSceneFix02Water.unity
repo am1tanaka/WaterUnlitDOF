@@ -191,7 +191,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -200,7 +200,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967279
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 1752068452}
+  m_TargetTexture: {fileID: 1762954734}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -547,7 +547,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 100
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -847,7 +847,7 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   priority: 0
---- !u!84 &1752068452
+--- !u!84 &1762954734
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -866,7 +866,7 @@ RenderTexture:
   m_AntiAliasing: 1
   m_MipCount: -1
   m_DepthFormat: 2
-  m_ColorFormat: 8
+  m_ColorFormat: 142
   m_MipMap: 0
   m_GenerateMips: 0
   m_SRGB: 0
@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 1773843705}
   - component: {fileID: 1773843704}
   - component: {fileID: 1773843703}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: UnlitCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}

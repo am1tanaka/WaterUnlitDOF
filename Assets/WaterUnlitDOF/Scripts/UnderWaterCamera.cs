@@ -78,7 +78,7 @@ public class UnderWaterCamera : MonoBehaviour
         underWaterTex = new RenderTexture(
             renderTextureSize, renderTextureSize,
             renderTextureDepth,
-            RenderTextureFormat.Default,
+            RenderTextureFormat.Depth,
             RenderTextureReadWrite.Linear);
         underWaterTex.dimension = TextureDimension.Tex2D;
         underWaterTex.autoGenerateMips = false;

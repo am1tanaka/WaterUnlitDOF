@@ -2,7 +2,7 @@
 
 ![ぼやけるキューブ](Recordings/image_001.jpg)
 
-ポストプロセスの被写界深度効果(Depth of Field)を使うと、水面のような半透明ものや影がないUnlitシェーダーが正常に描かれないことがあります。このリポジトリーは動作検証用のものです。
+ポストプロセスの被写界深度効果(Depth of Field)を使うと、水面のような半透明ものや影がないUnlitシェーダーが正常に描かれないことがあります。これは動作確認用のリポジトリーです。
 
 原因や解決策は以下のブログに書きました。
 
@@ -83,3 +83,8 @@
 
 ## 関連ブログ
 - [水面やUnlitシェーダーとDepth of Fieldの不具合対策メモ](https://am1tanaka.hatenablog.com/entry/water-unlit-dof)
+
+## ライセンス
+[The MIT License](./LICENSE.md)
+
+Copyright (C) 2022 Yu Tanaka

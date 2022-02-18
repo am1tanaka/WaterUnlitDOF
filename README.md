@@ -2,6 +2,9 @@
 
 ![ぼやけるキューブ](Recordings/image_001.jpg)
 
+![MIT License](https://img.shields.io/github/license/am1tanaka/WaterUnlitDOF)
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fam1tanaka%2FWaterUnlitDOF)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fam1tanaka%2FWaterUnlitDOF)
+
 ポストプロセスの被写界深度効果(Depth of Field)を使うと、水面のような半透明ものや影がないUnlitシェーダーが正常に描かれないことがあります。これは動作確認用のリポジトリーです。
 
 原因や解決策は以下のブログに書きました。
@@ -80,6 +83,7 @@
 ## 使用アセット
 - [Ebru Dogan. LowPoly Water](https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563)
 - PostProcessing Stack
+- https://shields.io/
 
 ## 関連ブログ
 - [水面やUnlitシェーダーとDepth of Fieldの不具合対策メモ](https://am1tanaka.hatenablog.com/entry/water-unlit-dof)
